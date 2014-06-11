@@ -39,12 +39,16 @@ $section = $phpWord->addSection();
 // Page break in middle of table occurs AFTER table has been rendered
 
 //echo "PAGE BREAK BEGINS HERE              ";
-$section->addPageBreak();
-$section->addTitle('Fail Title');
+//$section->addTitle('Fails');
+//$section->addPageBreak();
+//$section->addTitle('Fail Title');
 //echo "PAGE BREAK ENDS HERE               ";
 //
-//$section->addPageBreak();
-//$section->addText('Test working');
+$section->addTitle('Working');
+
+$section->addPageBreak();
+$section->addText('Test working');
+
 
 //$tableStyle = array('borderSize' => 1);
 //$width      = 2000;
