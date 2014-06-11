@@ -1,0 +1,17 @@
+{
+    "name"       : "tangentmtw/mpstoolbox",
+    "authors"    : [
+        {
+            "name" : "Kate",
+            "email": "kmccully@tangentmtw.com"
+        }
+    ],
+    "description": "MPS Tools",
+    "license"    : "proprietary",
+    "require"    : {
+        "php"                         : ">5.4.0",
+        "phpexcel/phpexcel"           : "dev-master",
+        "phpoffice/phpword"           : "dev-develop"
+    }
+
+}
